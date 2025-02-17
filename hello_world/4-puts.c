@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Short description, single line
- * Description: Flemme
+ * main - Point d'entree
+ * Description: Affiche Programming is like...
  * Return: valeur O
  */
 int main(void)
