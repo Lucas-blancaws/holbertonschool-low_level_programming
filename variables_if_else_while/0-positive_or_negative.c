@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
 * main - Point d'entree
-* Description : osef
-* Return : valeur 0
+* Description: osef
+* Return: valeur 0
 */
 int main(void)
 {
