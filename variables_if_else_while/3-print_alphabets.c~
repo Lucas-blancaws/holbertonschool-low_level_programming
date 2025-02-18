@@ -1,0 +1,23 @@
+#include <stdio.h>
+/**
+* main - Point d'entree
+* Description: ALphabet de a-z avec 2 putchar
+* Return: valeur 0
+*/
+int main(void)
+{
+int a = 97; int A = 65;
+while (a < 123)
+{
+putchar(a);
+a++;
+}
+while (A < 90)
+{
+putchar(A);
+A++;
+}
+putchar('\n');
+return (0);
+}
+
