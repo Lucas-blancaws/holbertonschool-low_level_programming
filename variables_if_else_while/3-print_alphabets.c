@@ -13,7 +13,7 @@ while (a < 123)
 putchar(a);
 a++;
 }
-while (A < 90)
+while (A < 91)
 {
 putchar(A);
 A++;
