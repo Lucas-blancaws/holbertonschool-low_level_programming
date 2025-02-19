@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_alphabetx10 - affiche l'alphabet en minuscule dix fois
+* print_alphabet_x10 - affiche l'alphabet en minuscule dix fois
 * Description : Cette fonction afiche toutes les lettres de l'alphabet dix fois
 * suivies d'un saut de ligne.
 */
