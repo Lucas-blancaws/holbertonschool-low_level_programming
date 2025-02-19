@@ -4,7 +4,7 @@
 * Description : Cette fonction affiche toutes les lettres de l'alphabet,
 * suivies d'un saut de ligne.
 */
-void print_alpabet(void)
+void print_alphabet(void)
 {
 	char c = 'a';
 
