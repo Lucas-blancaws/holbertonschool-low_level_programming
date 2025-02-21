@@ -22,10 +22,6 @@ void times_table(void)
 			{
 				_putchar (produit / 10 + '0');
 			}
-			else if (multi != 0)
-			{
-				_putchar (' ');
-			}
 			_putchar (produit % 10 + '0');
 			if (multi != 9)
 			{
