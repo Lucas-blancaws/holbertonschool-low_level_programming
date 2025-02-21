@@ -20,7 +20,11 @@ void times_table(void)
 
 			if (produit >= 10)
 			{
-				_putchar (produit / 10 + '0');
+				_putchar(produit / 10 + '0');
+			}
+			else if (multi != 0)
+			{
+				_putchar(' ');
 			}
 			_putchar (produit % 10 + '0');
 			if (multi != 9)
