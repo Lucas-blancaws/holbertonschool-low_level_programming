@@ -15,3 +15,4 @@ int main(void)
     printf("%s\n", s);
     return (0);
 }
+//Le programme appelle une fonction rev_string pour inverser une chaîne de caractères directement en mémoire. 

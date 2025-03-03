@@ -16,3 +16,4 @@ int main(void)
     printf("%s", ptr);
     return (0);
 }
+//Le programme appelle une fonction _strcpy pour copier une chaîne de caractères dans un tableau, puis afficher la chaîne copiée avec deux printf distincts

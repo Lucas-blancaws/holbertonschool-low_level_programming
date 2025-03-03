@@ -16,3 +16,4 @@ int main(void)
     printf("%d\n", len);
     return (0);
 }
+// Le programme utilise une fonction _strlen pour calculer la longueur d'une chaîne de caractères.

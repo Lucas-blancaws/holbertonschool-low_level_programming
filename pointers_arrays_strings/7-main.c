@@ -13,3 +13,4 @@ int main(void)
     puts_half(str);
     return (0);
 }
+// Le programme appelle une fonction puts_half pour afficher la deuxième moitié de la chaîne.

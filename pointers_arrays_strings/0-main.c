@@ -11,8 +11,8 @@ int main(void)
     int n;
 
     n = 402;
-    printf("n=%d\n", n);
-    reset_to_98(&n);
-    printf("n=%d\n", n);
+    printf("n=%d\n", n); // Affiche "n+402"
+    reset_to_98(&n); // Appelle la fonction en passant l'adresse de n
+    printf("n=%d\n", n); // Affiche "n=98"
     return (0);
 }

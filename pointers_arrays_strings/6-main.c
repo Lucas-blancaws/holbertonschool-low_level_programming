@@ -13,3 +13,4 @@ int main(void)
     puts2(str);
     return (0);
 }
+//Le programme appelle une fonction puts2 pour afficher un caractère sur deux de la chaîne.

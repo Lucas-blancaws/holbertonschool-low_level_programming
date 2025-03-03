@@ -13,3 +13,4 @@ int main(void)
     _puts(str);
     return (0);
 }
+// Le programme appelle une fonction _puts pour afficher une chaîne de caractères.

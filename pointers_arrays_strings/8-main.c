@@ -17,3 +17,4 @@ int main(void)
     print_array(array, 5);
     return (0);
 }
+//Le programme appelle une fonction print_array pour afficher les éléments d'un tableau d'entiers.
