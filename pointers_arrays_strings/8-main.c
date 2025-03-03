@@ -5,6 +5,7 @@
  *
  * Return: Always 0.
  */
+/*
 int main(void)
 {
     int array[5];
@@ -18,3 +19,4 @@ int main(void)
     return (0);
 }
 //Le programme appelle une fonction print_array pour afficher les éléments d'un tableau d'entiers.
+*/

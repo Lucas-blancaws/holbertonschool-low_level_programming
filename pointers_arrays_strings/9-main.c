@@ -6,6 +6,7 @@
  *
  * Return: Always 0.
  */
+/*
 int main(void)
 {
     char s1[98];
@@ -17,3 +18,4 @@ int main(void)
     return (0);
 }
 //Le programme appelle une fonction _strcpy pour copier une chaîne de caractères dans un tableau, puis afficher la chaîne copiée avec deux printf distincts
+*/

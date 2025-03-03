@@ -6,7 +6,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+/*int main(void)
 {
     int a;
     int b;
@@ -18,3 +18,4 @@ int main(void)
     printf("a=%d, b=%d\n", a, b);
     return (0);
 }
+*/

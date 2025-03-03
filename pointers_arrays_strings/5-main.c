@@ -6,6 +6,7 @@
  *
  * Return: Always 0.
  */
+/*
 int main(void)
 {
     char s[10] = "My School";
@@ -16,3 +17,4 @@ int main(void)
     return (0);
 }
 //Le programme appelle une fonction rev_string pour inverser une chaîne de caractères directement en mémoire. 
+*/

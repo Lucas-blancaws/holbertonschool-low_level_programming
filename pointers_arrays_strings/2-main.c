@@ -6,7 +6,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+/*int main(void)
 {
     char *str;
     int len;
@@ -17,3 +17,4 @@ int main(void)
     return (0);
 }
 // Le programme utilise une fonction _strlen pour calculer la longueur d'une chaîne de caractères.
+*/

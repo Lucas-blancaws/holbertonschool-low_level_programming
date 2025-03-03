@@ -5,6 +5,7 @@
  *
  * Return: Always 0.
  */
+/*
 int main(void)
 {
     char *str;
@@ -14,3 +15,4 @@ int main(void)
     return (0);
 }
 // Le programme appelle une fonction _puts pour afficher une chaîne de caractères.
+*/
