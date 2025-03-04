@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strpbrk - recherche ds chaîn caract� le premier caractère qui c
  * @s : la chaîne principa
