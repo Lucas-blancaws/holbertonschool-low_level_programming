@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* _strcmp - check the code for
-* @ptr: pointeur pour acccept
-* @found: vérifi si un caractèr est a accept
+* _strspn - check the code for
+* @accept: La chaîne contenant les caractères acceptés
+* @s : La chaine principale
 * Description: fonctio qui mesure la long d1 préfixe d'unechain full carac spe
 * Return: 0.
 */
