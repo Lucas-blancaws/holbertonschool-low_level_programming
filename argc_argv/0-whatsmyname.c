@@ -5,6 +5,7 @@
  * main - Affiche le nom du programme
  * @argc: Nombre d'arguments (pas  utilise)
  * @argv: Tableau des arguments
+ * return : return
  */
 
 int main(int argc, char **argv)
