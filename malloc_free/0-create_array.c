@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * Description - 
- *
- *
- *
+ * create_array - Alloue un tableau de carac et l'initialise avec un carac
+ * @size: La taille du tableau a allouer
+ * @c: Le caractèr utiliser pour initialiser le table
+ * Return: Pointer vers tableau alloe ou NULL
  */
 char *create_array(unsigned int size, char c)
 {
@@ -25,5 +25,5 @@ char *create_array(unsigned int size, char c)
 	{
 		array[i] = c;
 	}
-	return array;
+	return (array);
 }
