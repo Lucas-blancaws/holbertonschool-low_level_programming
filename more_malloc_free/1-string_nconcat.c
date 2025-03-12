@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
 #include <string.h>
-
 /**
  * string_nconcat - Concatène deux chaînes de caractè
  * @s1: Première chaîn
