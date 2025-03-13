@@ -1,7 +1,5 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 /**
  * _strdup - Crée une copie d'une chaîne de ca
  * @str: La chaîne de cara a dupliquer
