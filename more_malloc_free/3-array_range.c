@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * array_range- Crée un tableau d'entiers contenant toutes les valeurs de mi max
- * min : la valeur minimale du tableau
- * max : la valeur maximale du tableau
+ * array_range- Crée un tableau d'entier avec toutes les valeurs de min max
+ * @min : la valeur minimale du tableau
+ * @max : la valeur maximale du tableau
  * Return: un pointeur vers le tableau alloué dynamiquemet
  */
 
@@ -22,6 +22,6 @@ int *array_range(int min, int max)
 		return (NULL);
 	for (i = 0; i < size; i++)
 		arr[i] = min + i;
-	return arr;
+	return (arr);
 	free(arr);
 }
