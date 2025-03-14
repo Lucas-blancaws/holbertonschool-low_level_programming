@@ -2,12 +2,28 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * string_nconcat - Concatène deux chaînes de caractè
- * @s1: Première chaîn
- * @s2: Deuxième chaî
- * @n: Nombre de caractèresde s2 a concaténe
- * Return: Pointeur vers la nouvelle chaîne concatée
+ * _strlen - parcours les strings
+ * @s: string
+ * Description (): parcours string
+ * Return:valeur 0
  */
+int _strlen(char *s)
+{
+	int n;
+
+	for (n = 0; s[n] != '\0'; n++)
+	{
+	}
+	return (n);
+}
+/**
+ * string_nconcat - Concatène deux chaînes de car
+ * @s1: Première ch
+ * @s2: Deuxième ch
+ * @n: Nombre de caractèresde s2 a concat�
+ * Return: Pointeur vers la nouvelle chaîne conca
+ */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *new_str;
@@ -18,8 +34,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	len1 = strlen(s1);
-	len2 = strlen(s2);
+	len1 = _strlen(s1);
+	len2 = _strlen(s2);
 	if (n >= len2)
 		n = len2;
 
