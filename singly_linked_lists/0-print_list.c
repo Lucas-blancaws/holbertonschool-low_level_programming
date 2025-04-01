@@ -1,9 +1,10 @@
 #include "lists.h"
+
 /**
  * print_list - prints all the elements of a list_t list
  * list_t: liste of element
- * @h: pointeur
- * Return: count
+ * @h: pointeur vers tete de liste
+ * Return: nmb element dans la liste
  */
 size_t print_list(const list_t *h)
 {
