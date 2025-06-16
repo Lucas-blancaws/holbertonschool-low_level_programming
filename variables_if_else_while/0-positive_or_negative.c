@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * main - retourne rien
- * Description : affiche le positif ou le negatif
- * Return: + ou -
- */
+/**
+* main - positif ou negatif
+* Description: generer un nombre puis dire s'il est + ou -
+* Return:valeur 0
+*/
+
 int main(void)
 {
 	int n;
