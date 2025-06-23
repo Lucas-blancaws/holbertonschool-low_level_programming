@@ -1,8 +1,10 @@
 #include <stdlib.h>
 #include "main.h"
-
-
-
+/**
+ * print_diagonal - Affiche une diagonale avec '\'
+ * @n: Longueur de la diag
+ * Si n est inférieu a 0 affiche saut de ligne
+ */
 void print_diagonal(int n)
 {
 	int a;
