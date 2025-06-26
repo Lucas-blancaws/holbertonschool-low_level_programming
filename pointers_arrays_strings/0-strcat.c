@@ -9,12 +9,12 @@
 
 int _strlen(char *s)
 {
-        int i;
+	int i;
 
-        for (i = 0; s[i] != '\0'; i++)
-        {
-        }
-        return (i);
+	for (i = 0; s[i] != '\0'; i++)
+	{
+	}
+	return (i);
 }
 
 #include <stdio.h>
@@ -30,21 +30,25 @@ int _strlen(char *s)
 
 char *_strcpy(char *dest, char *src)
 {
-        int i;
+	int i;
 
-        for (i = 0; src[i] != '\0'; i++)
-        {
-                dest[i] = src[i];
-        }
-        dest[i] = '\0';
-        return (dest);
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	dest[i] = '\0';
+	return (dest);
 }
 
 #include <stdio.h>
 #include "main.h"
-
-
-
+/**
+ * _strcat - Copie la string pointe par src vers dest
+ * @dest: Destinatioon
+ * @src: Source string
+ *
+ * Return: pointeur sur dest
+ */
 char *_strcat(char *dest, char *src)
 {
 	size_t len;
