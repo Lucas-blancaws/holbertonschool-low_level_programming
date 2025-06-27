@@ -12,7 +12,7 @@
 
 char *cap_string(char *str)
 {
-	int i;
+	int i = 0;
 
 	while (str[i])
 	{
@@ -20,7 +20,7 @@ char *cap_string(char *str)
 				str[i - 1] == '\n' || str[i - 1] == ';' || str[i - 1] == ' ' ||
 				str[i - 1] == '.' || str[i - 1] == '!' || str[i - 1] == '?' ||
 				str[i - 1] == '"' || str[i - 1] == '(' || str[i - 1] == ')' ||
-				str[i - 1] == '{' || str[i - 1] == '}' || str[i - 1] == '-')
+				str[i - 1] == '{' || str[i - 1] == '}')
 		{
 			if (str[i] >= 'a' && str[i] <= 'z')
 			{
