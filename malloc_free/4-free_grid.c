@@ -7,21 +7,21 @@
  *
  * Description: Cette fonction libère la mémoire allouée pour chaque ligne
  * puis libère le tableau de pointeurs
- * 
+ *
  * Return: Si grid est NULL ou si height est inférieur ou égal à 0,
  * la fonction retourne immédiatement sans effectuer de libération
  */
 void free_grid(int **grid, int height)
 {
-    int i;
+	int i;
 
-    if (grid == NULL || height <= 0)
-        return;
+	if (grid == NULL || height <= 0)
+		return;
 
-    for (i = 0; i < height; i++)
-    {
-        free(grid[i]);
-    }
+	for (i = 0; i < height; i++)
+	{
+		free(grid[i]);
+	}
 
-    free(grid);
+	free(grid);
 }
