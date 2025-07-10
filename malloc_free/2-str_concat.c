@@ -16,11 +16,11 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL)
 	{
-		s1 = ""
+		s1 = "";
 	}
 	if (s2 == NULL)
 	{
-		s2 = ""
+		s2 = "";
 	}
 	for (len1 = 0; s1[len1] != '\0'; len1++)
 	{
@@ -44,5 +44,6 @@ char *str_concat(char *s1, char *s2)
 		stock[i + j] = s2[j];
 	}
 	stock[i + j] = '\0';
+
 	return (stock);
 }
