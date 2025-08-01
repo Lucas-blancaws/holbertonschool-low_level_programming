@@ -8,8 +8,6 @@ int main(int argc, char *argv[])
 {
 	int fd_from = 0;
 	int fd_to = 0;
-	char buffer[1024];
-	ssize_t bytes_read, bytes_written;
 
 	if (argc != 3)
 	{
@@ -29,6 +27,5 @@ int main(int argc, char *argv[])
 		close(fd_from);
 		exit(99);
 	}
-
 
 }
